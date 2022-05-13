@@ -1,8 +1,10 @@
 ---
-title: Home
 id: home
-template: home
 blueprint: pages
+title: 'Check me out'
+template: home
+updated_by: 8afad1f0-fe72-4d64-89c5-607522ad08be
+updated_at: 1652436381
 ---
 ## Welcome to your new brand Statamic site!
 
