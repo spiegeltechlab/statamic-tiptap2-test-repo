@@ -4551,12 +4551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiegeltechlab/cms.git",
-                "reference": "107ec94f80ab42a075309f88128c392f76584650"
+                "reference": "4676dae392e27533b2a94bdf68be9d28f16a00d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiegeltechlab/cms/zipball/107ec94f80ab42a075309f88128c392f76584650",
-                "reference": "107ec94f80ab42a075309f88128c392f76584650",
+                "url": "https://api.github.com/repos/spiegeltechlab/cms/zipball/4676dae392e27533b2a94bdf68be9d28f16a00d2",
+                "reference": "4676dae392e27533b2a94bdf68be9d28f16a00d2",
                 "shasum": ""
             },
             "require": {
@@ -4645,7 +4645,7 @@
                     "url": "https://github.com/statamic"
                 }
             ],
-            "time": "2022-05-13T08:48:57+00:00"
+            "time": "2022-05-13T15:14:48+00:00"
         },
         {
             "name": "statamic/stringy",
