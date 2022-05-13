@@ -4,7 +4,7 @@ blueprint: pages
 title: 'Check me out'
 template: home
 updated_by: 8afad1f0-fe72-4d64-89c5-607522ad08be
-updated_at: 1652438863
+updated_at: 1652440223
 tiptap2_default:
   -
     type: heading
@@ -195,4 +195,68 @@ tiptap2_default:
       -
         type: text
         text: 'Bonbon dragée cake danish chocolate cake. Carrot cake bonbon halvah chocolate bar ice cream candy chupa chups. Chupa chups dragée bear claw jelly beans toffee marzipan chocolate bar oat cake dragée. Sweet apple pie cupcake bear claw dragée dragée gummies muffin. Cake dragée shortbread soufflé cotton candy cotton candy candy canes candy canes wafer. Carrot cake shortbread tart cake chupa chups. Wafer gummies brownie tart sugar plum chocolate. Sweet roll sweet roll carrot cake sweet roll cheesecake danish. Cheesecake gummi bears carrot cake oat cake soufflé topping. Lemon drops sugar plum tootsie roll powder tiramisu dessert ice cream macaroon. Jelly muffin candy topping toffee dragée. Topping toffee candy cake pie liquorice. Caramels jelly-o gummies chocolate sugar plum jujubes. Muffin pudding chocolate cake soufflé muffin sugar plum.'
+tiptap2_with_sets:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Shortbread brownie tootsie roll fruitcake lollipop cotton candy carrot cake sweet roll marzipan. '
+  -
+    type: set
+    attrs:
+      values:
+        type: image
+        image: test_image.jpg
+        caption: 'Some test caption'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Lemon drops carrot cake brownie toffee chocolate bar toffee. Tootsie roll cotton candy carrot cake brownie sweet roll tootsie roll. Biscuit pie biscuit chocolate bonbon icing biscuit tart.'
+  -
+    type: set
+    attrs:
+      values:
+        type: text
+        bard_field:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: Bard
+              -
+                type: text
+                text: ' '
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: inside
+              -
+                type: text
+                text: ' '
+              -
+                type: text
+                marks:
+                  -
+                    type: underline
+                text: Bard
+              -
+                type: text
+                text: .
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Bonbon dragée cake danish chocolate cake. Carrot cake bonbon halvah chocolate bar ice cream candy chupa chups. Chupa chups dragée bear claw jelly beans toffee marzipan chocolate bar oat cake dragée.'
+  -
+    type: paragraph
 ---
