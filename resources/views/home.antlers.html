@@ -7,24 +7,16 @@
 <article class="mt-4 bg-white p-8 shadow-xl rounded-xl max-w-4xl prose">
     {{ tiptap2_with_sets }}
         {{ if type == "text" }}
-
             <div class="text">
                 {{ text }}
             </div>
     
         {{ elseif type == "image" }}
-
             <figure>
-                <img src="{{ image:src }}" alt="{{ image:alt }}">
+                <img src="{{ image }}" alt="{{ image:alt }}">
                 <figcaption>{{ caption }}</figcaption>
             </figure>
         
-        {{ elseif type == "bard" }}
-
-            <div class="prose">
-                {{ bard }}
-            </div>
-
         {{ /if }}
     {{ /tiptap2_with_sets }}
 </article>
