@@ -15,29 +15,29 @@ sections:
         field:
           always_show_set_button: false
           buttons:
+            - h1
             - h2
             - h3
+            - h4
+            - h5
+            - h6
             - bold
             - italic
+            - underline
+            - strikethrough
             - unorderedlist
             - orderedlist
-            - removeformat
             - quote
             - anchor
             - image
             - table
-            - h1
-            - h4
-            - h5
-            - h6
-            - underline
-            - strikethrough
             - small
             - superscript
             - subscript
             - code
             - codeblock
             - horizontalrule
+            - removeformat
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
