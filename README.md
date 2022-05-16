@@ -8,6 +8,13 @@ The most common ways might be:
 - Laravel Valet
 - Laravel Sail 
 
+## Installation
+
+Remember to follow the typical installation process:
+
+1. Install PHP dependencies `composer install`
+2. Set a Key `php artisan key:generate`
+
 ### Valet
 
 Simply call YOURPROJECTFOLDER.test
