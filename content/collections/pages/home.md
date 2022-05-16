@@ -4,7 +4,7 @@ blueprint: pages
 title: 'Check me out'
 template: home
 updated_by: 8afad1f0-fe72-4d64-89c5-607522ad08be
-updated_at: 1652440223
+updated_at: 1652711919
 tiptap2_default:
   -
     type: heading
@@ -201,62 +201,18 @@ tiptap2_with_sets:
     content:
       -
         type: text
-        text: 'Shortbread brownie tootsie roll fruitcake lollipop cotton candy carrot cake sweet roll marzipan. '
+        text: 'Jelly muffin candy topping toffee dragée. Topping toffee candy cake pie liquorice. Caramels jelly-o gummies chocolate sugar plum jujubes. Muffin pudding chocolate cake soufflé muffin sugar plum.'
   -
     type: set
     attrs:
       values:
         type: image
         image: test_image.jpg
-        caption: 'Some test caption'
+        caption: 'What a nice test image'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Lemon drops carrot cake brownie toffee chocolate bar toffee. Tootsie roll cotton candy carrot cake brownie sweet roll tootsie roll. Biscuit pie biscuit chocolate bonbon icing biscuit tart.'
-  -
-    type: set
-    attrs:
-      values:
-        type: text
-        bard_field:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: bold
-                text: Bard
-              -
-                type: text
-                text: ' '
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: inside
-              -
-                type: text
-                text: ' '
-              -
-                type: text
-                marks:
-                  -
-                    type: underline
-                text: Bard
-              -
-                type: text
-                text: .
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Bonbon dragée cake danish chocolate cake. Carrot cake bonbon halvah chocolate bar ice cream candy chupa chups. Chupa chups dragée bear claw jelly beans toffee marzipan chocolate bar oat cake dragée.'
-  -
-    type: paragraph
+        text: 'oll powder sugar plum marshmallow cupcake macaroon. Bonbon chocolate bar sweet roll brownie cotton candy mars'
 ---
