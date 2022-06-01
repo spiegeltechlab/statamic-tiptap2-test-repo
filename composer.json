@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.7",
-        "statamic/cms": "dev-update-tiptap"
+        "statamic/cms": "dev-update-tiptap as 3.3.9999",
+        "goldnead/statamic-toc": "dev-support-statamic-3.3"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
@@ -29,6 +30,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/spiegeltechlab/cms"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spiegeltechlab/statamic-toc"
         }
     ],
     "config": {
