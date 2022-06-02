@@ -38,6 +38,7 @@ sections:
             - codeblock
             - horizontalrule
             - removeformat
+            - arcklineheight
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
