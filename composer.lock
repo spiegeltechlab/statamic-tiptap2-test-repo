@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fbed27108466afe67ee727fa847e334",
+    "content-hash": "cf75695bc4d4ac343ffb209abe4c3d97",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -1345,6 +1345,74 @@
                 }
             ],
             "time": "2022-02-20T15:07:15+00:00"
+        },
+        {
+            "name": "goldnead/statamic-toc",
+            "version": "dev-support-statamic-3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spiegeltechlab/statamic-toc.git",
+                "reference": "b9418f8ccb82cf3911b5136c3ca16ec3b0306031"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spiegeltechlab/statamic-toc/zipball/b9418f8ccb82cf3911b5136c3ca16ec3b0306031",
+                "reference": "b9418f8ccb82cf3911b5136c3ca16ec3b0306031",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "statamic/cms": "^3.0 || ^3.1 || ^3.2|| ^3.3"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^4.2",
+                "orchestra/testbench": "^5.0|^6.0",
+                "spatie/test-time": "^1.2"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic ToC",
+                    "description": "Automatic Table Of Contents Generator for Statamic Bard-Fields."
+                },
+                "laravel": {
+                    "providers": [
+                        "Goldnead\\StatamicToc\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Goldnead\\StatamicToc\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Goldnead\\StatamicToc\\Tests\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "php -d memory_limit=-1 -d max_execution_time=0 ./vendor/bin/phpunit"
+                ],
+                "lint": [
+                    "php-cs-fixer fix ./src"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "goldnead",
+                    "email": "adrian.goldner@gmail.com"
+                }
+            ],
+            "description": "Automatic Table Of Contents Generator for Statamic Bard-Fields.",
+            "support": {
+                "source": "https://github.com/spiegeltechlab/statamic-toc/tree/support-statamic-3.3"
+            },
+            "time": "2022-06-01T13:11:10+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -10636,11 +10704,19 @@
             "time": "2021-07-28T10:34:58+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "statamic/cms",
+            "version": "dev-update-tiptap",
+            "alias": "3.3.9999",
+            "alias_normalized": "3.3.9999.0"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "arckinteractive/statamic-bard-line-height": 20,
-        "statamic/cms": 20
+        "statamic/cms": 20,
+        "goldnead/statamic-toc": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
