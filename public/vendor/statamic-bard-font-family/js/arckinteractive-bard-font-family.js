@@ -88,8 +88,7 @@ __webpack_require__.r(__webpack_exports__);
       this.showOptions = false;
     },
     setClassType: function setClassType(classTypeKey) {
-      console.log("setClass Type in vue"); // update the editor
-
+      // update the editor
       this.editor.commands.setFontFamily({
         key: classTypeKey == this.currentKey ? false : classTypeKey
       }); // hide the menu
@@ -161,11 +160,8 @@ var ArckFontFamily = Mark.create({
       setFontFamily: function setFontFamily(attributes) {
         return function (_ref2) {
           var chain = _ref2.chain;
-          console.log('command fired');
-          console.log('attributes', attributes);
 
           if (attributes.key) {
-            console.log('chain', chain());
             return chain().setMark(_this.name, attributes).run();
           }
 
@@ -1012,7 +1008,7 @@ Statamic.$bard.addExtension(function () {
 });
 Statamic.$bard.buttons(function () {
   return {
-    name: 'arckFontFamily',
+    name: 'arckfontFamily',
     text: 'Font Family',
     icon: 'arck-font-family',
     component: _ArckFontFamilyMenu_vue__WEBPACK_IMPORTED_MODULE_1__["default"],

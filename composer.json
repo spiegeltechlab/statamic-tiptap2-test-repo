@@ -10,8 +10,9 @@
     "type": "project",
     "require": {
         "php": "^8.0",
-        "arckinteractive/statamic-bard-font-size": "dev-update-tiptap-2",
         "arckinteractive/statamic-bard-font-weight": "dev-update-tiptap",
+        "arckinteractive/statamic-bard-font-family": "dev-update-tiptap",
+        "arckinteractive/statamic-bard-font-size": "dev-update-tiptap-2",
         "arckinteractive/statamic-bard-line-height": "dev-update-tiptap-2",
         "fruitcake/laravel-cors": "^2.0.5",
         "goldnead/statamic-toc": "dev-support-statamic-3.3",
@@ -45,6 +46,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/spiegeltechlab/statamic-bard-font-weight"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spiegeltechlab/statamic-bard-font-family"
         },
         {
             "type": "vcs",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66139cbae2e53e569a37310b1f8c7ad4",
+    "content-hash": "f5fbd0ac2777396ef7d3adc8d44a66a7",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -70,6 +70,50 @@
             "time": "2022-05-25T07:35:55+00:00"
         },
         {
+            "name": "arckinteractive/statamic-bard-font-family",
+            "version": "dev-update-tiptap",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spiegeltechlab/statamic-bard-font-family.git",
+                "reference": "12a60878f23312f8654588c72a513c8d97de56f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spiegeltechlab/statamic-bard-font-family/zipball/12a60878f23312f8654588c72a513c8d97de56f9",
+                "reference": "12a60878f23312f8654588c72a513c8d97de56f9",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Bard Font Family",
+                    "description": "Statamic Bard Font Family addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Arckinteractive\\StatamicBardFontFamily\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arckinteractive\\StatamicBardFontFamily\\": "src"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "php artisan vendor:publish --tag=arckinteractive-bard-font-family"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "source": "https://github.com/spiegeltechlab/statamic-bard-font-family/tree/update-tiptap"
+            },
+            "time": "2022-06-02T10:08:16+00:00"
+        },
+        {
             "name": "arckinteractive/statamic-bard-font-size",
             "version": "dev-update-tiptap-2",
             "source": {
@@ -114,12 +158,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiegeltechlab/statamic-bard-font-weight.git",
-                "reference": "b10983c0ad3d60c870426d38c6602173230dd993"
+                "reference": "4e921c6b31d6296c714ef5d32ca8f314a8fd06af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiegeltechlab/statamic-bard-font-weight/zipball/b10983c0ad3d60c870426d38c6602173230dd993",
-                "reference": "b10983c0ad3d60c870426d38c6602173230dd993",
+                "url": "https://api.github.com/repos/spiegeltechlab/statamic-bard-font-weight/zipball/4e921c6b31d6296c714ef5d32ca8f314a8fd06af",
+                "reference": "4e921c6b31d6296c714ef5d32ca8f314a8fd06af",
                 "shasum": ""
             },
             "type": "library",
@@ -150,7 +194,7 @@
             "support": {
                 "source": "https://github.com/spiegeltechlab/statamic-bard-font-weight/tree/update-tiptap"
             },
-            "time": "2022-06-02T09:00:14+00:00"
+            "time": "2022-06-02T10:06:31+00:00"
         },
         {
             "name": "arckinteractive/statamic-bard-line-height",
@@ -10797,8 +10841,9 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "arckinteractive/statamic-bard-font-size": 20,
         "arckinteractive/statamic-bard-font-weight": 20,
+        "arckinteractive/statamic-bard-font-family": 20,
+        "arckinteractive/statamic-bard-font-size": 20,
         "arckinteractive/statamic-bard-line-height": 20,
         "goldnead/statamic-toc": 20,
         "statamic/cms": 20
