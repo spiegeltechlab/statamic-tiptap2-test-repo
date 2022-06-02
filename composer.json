@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.0",
         "arckinteractive/statamic-bard-line-height": "dev-update-tiptap-2",
+        "arckinteractive/statamic-bard-font-weight": "dev-update-tiptap",
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
@@ -35,6 +36,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/spiegeltechlab/statamic-bard-line-height"
+        },
+        {
+            "type": "path",
+            "url": "./addons/arckinteractive/statamic-bard-font-weight"
         },
         {
             "type": "vcs",

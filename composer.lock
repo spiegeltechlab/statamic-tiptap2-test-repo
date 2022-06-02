@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf75695bc4d4ac343ffb209abe4c3d97",
+    "content-hash": "52c7df997d48b8d796ac51a1be36f669",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -68,6 +68,43 @@
                 "source": "https://github.com/ajthinking/archetype/tree/v1.1.4"
             },
             "time": "2022-05-25T07:35:55+00:00"
+        },
+        {
+            "name": "arckinteractive/statamic-bard-font-weight",
+            "version": "dev-update-tiptap",
+            "dist": {
+                "type": "path",
+                "url": "./addons/arckinteractive/statamic-bard-font-weight",
+                "reference": "f6880eca83e03fcac2fe96630f6faec7b4e39efa"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Bard Font Weight",
+                    "description": "Statamic Bard Font Weight addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Arckinteractive\\StatamicBardFontWeight\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Arckinteractive\\StatamicBardFontWeight\\": "src"
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "php artisan vendor:publish --tag=arckinteractive-bard-font-weight"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "arckinteractive/statamic-bard-line-height",
@@ -10715,6 +10752,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "arckinteractive/statamic-bard-line-height": 20,
+        "arckinteractive/statamic-bard-font-weight": 20,
         "statamic/cms": 20,
         "goldnead/statamic-toc": 20
     },
