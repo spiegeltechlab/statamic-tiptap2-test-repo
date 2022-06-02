@@ -39,6 +39,8 @@ sections:
             - horizontalrule
             - removeformat
             - arcklineheight
+            - arckfontfamily
+            - arckfontweight
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
