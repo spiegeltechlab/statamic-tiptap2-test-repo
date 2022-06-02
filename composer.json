@@ -38,8 +38,8 @@
             "url": "https://github.com/spiegeltechlab/statamic-bard-line-height"
         },
         {
-            "type": "path",
-            "url": "./addons/arckinteractive/statamic-bard-font-weight"
+            "type": "vcs",
+            "url": "https://github.com/spiegeltechlab/statamic-bard-font-weight"
         },
         {
             "type": "vcs",
