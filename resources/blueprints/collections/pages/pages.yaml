@@ -41,6 +41,7 @@ sections:
             - arcklineheight
             - arckfontfamily
             - arckfontweight
+            - arckfontsize
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
