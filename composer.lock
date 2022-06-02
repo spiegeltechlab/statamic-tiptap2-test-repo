@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "52c7df997d48b8d796ac51a1be36f669",
+    "content-hash": "4a2e8dbdb7ba2be878210cd607a892a8",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -72,10 +72,16 @@
         {
             "name": "arckinteractive/statamic-bard-font-weight",
             "version": "dev-update-tiptap",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spiegeltechlab/statamic-bard-font-weight.git",
+                "reference": "c0bfa0d4738929b2f1d1ce2c7a5efa51ae9d8251"
+            },
             "dist": {
-                "type": "path",
-                "url": "./addons/arckinteractive/statamic-bard-font-weight",
-                "reference": "f6880eca83e03fcac2fe96630f6faec7b4e39efa"
+                "type": "zip",
+                "url": "https://api.github.com/repos/spiegeltechlab/statamic-bard-font-weight/zipball/c0bfa0d4738929b2f1d1ce2c7a5efa51ae9d8251",
+                "reference": "c0bfa0d4738929b2f1d1ce2c7a5efa51ae9d8251",
+                "shasum": ""
             },
             "type": "library",
             "extra": {
@@ -102,9 +108,10 @@
             "license": [
                 "MIT"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/spiegeltechlab/statamic-bard-font-weight/tree/update-tiptap"
+            },
+            "time": "2022-06-02T08:16:42+00:00"
         },
         {
             "name": "arckinteractive/statamic-bard-line-height",
