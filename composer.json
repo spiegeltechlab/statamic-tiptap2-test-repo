@@ -10,14 +10,15 @@
     "type": "project",
     "require": {
         "php": "^8.0",
-        "arckinteractive/statamic-bard-line-height": "dev-update-tiptap-2",
+        "arckinteractive/statamic-bard-font-size": "dev-update-tiptap-2",
         "arckinteractive/statamic-bard-font-weight": "dev-update-tiptap",
+        "arckinteractive/statamic-bard-line-height": "dev-update-tiptap-2",
         "fruitcake/laravel-cors": "^2.0.5",
+        "goldnead/statamic-toc": "dev-support-statamic-3.3",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
         "laravel/tinker": "^2.7",
-        "statamic/cms": "dev-update-tiptap as 3.3.9999",
-        "goldnead/statamic-toc": "dev-support-statamic-3.3"
+        "statamic/cms": "dev-update-tiptap as 3.3.9999"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
@@ -32,6 +33,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/spiegeltechlab/cms"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/spiegeltechlab/statamic-bard-font-size"
         },
         {
             "type": "vcs",
